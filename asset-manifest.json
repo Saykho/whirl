@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/whirl/static/css/main.95adefa2.css",
+    "main.js": "/whirl/static/js/main.e75533b0.js",
+    "static/js/787.af04e08f.chunk.js": "/whirl/static/js/787.af04e08f.chunk.js",
+    "index.html": "/whirl/index.html",
+    "main.95adefa2.css.map": "/whirl/static/css/main.95adefa2.css.map",
+    "main.e75533b0.js.map": "/whirl/static/js/main.e75533b0.js.map",
+    "787.af04e08f.chunk.js.map": "/whirl/static/js/787.af04e08f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95adefa2.css",
+    "static/js/main.e75533b0.js"
+  ]
+}
