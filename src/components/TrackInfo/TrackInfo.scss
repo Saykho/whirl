@@ -1,0 +1,37 @@
+@import "src/style/colors";
+
+.reminder {
+  padding: 80px 155px;
+  background: $darkBlue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__description {
+    width: 501px;
+    height: 389px;
+
+    .reminder-title {
+      color: $white;
+      margin-bottom: 18px;
+    }
+
+    .reminder-desc {
+      color: $white;
+      margin-bottom: 20px;
+    }
+
+    .reminder-list {
+      color: $white;
+      margin-bottom: 16px;
+    }
+
+    .reminder-list li {
+      margin-bottom: 12px;
+    }
+
+    .reminder-list li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

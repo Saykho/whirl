@@ -1,0 +1,22 @@
+@import "src/style/colors";
+
+.start {
+  padding: 63px 585px 64px 64px;
+  margin: 80px 155px;
+  background: $lightBlue-2;
+
+  &__title {
+    color: $darkGrey-2;
+    margin-bottom: 18px;
+  }
+
+  &__text {
+    color: $darkGrey-2;
+    margin-bottom: 33px;
+  }
+
+  &__terms {
+    color: $lightGrey;
+    margin-top: 20px;
+  }
+}

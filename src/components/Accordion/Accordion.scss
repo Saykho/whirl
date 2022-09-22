@@ -1,0 +1,48 @@
+@import "src/style/colors";
+
+
+.accordion {
+  width: 450px;
+  border-bottom: 1px solid $grey;
+  border-top: 1px solid $grey;
+  padding: 17px 16px 16px 12px;
+  margin-bottom: 1px;
+
+  .accordion-headline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+
+    .accordion-img {
+      width: 32px;
+      height: 32px;
+      margin-right: 16px;
+    }
+
+    .accordion-title {
+      color: $darkGrey-2;
+      margin-right: 149px;
+    }
+
+    .closed {
+      color: $lightGrey;
+    }
+
+    .accordion-button {
+      border: none;
+      background: none;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      width: 18px;
+      height: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .accordion-text {
+    color: $darkGrey-2;
+    padding: 0 27px 8px 48px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "src/style/colors";
+
+.about-whirl {
+  display: flex;
+  padding: 120px 155px;
+
+  &__title {
+    margin-right: 98px;
+    color: $darkGrey-2;
+  }
+}

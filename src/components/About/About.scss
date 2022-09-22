@@ -1,0 +1,32 @@
+@import "src/style/colors";
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 155px 120px;
+
+  &__right {
+
+    margin-right: 204px;
+
+    .about-title {
+      margin-bottom: 21px;
+      color: $darkGrey-2;
+    }
+
+    .about-description {
+      color: $darkGrey-2;
+      margin-bottom: 29px;
+    }
+
+    .about-buttons {
+      display: flex;
+    }
+  }
+
+  &__img {
+    width: 452px;
+    height: 422px;
+  }
+}

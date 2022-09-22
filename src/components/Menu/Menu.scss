@@ -1,0 +1,43 @@
+@import "src/style/colors";
+
+.nav {
+  padding: 19px 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    align-items: center;
+
+    .nav-logo {
+      width: 160px;
+      height: 37px;
+      margin-right: 27px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      margin-right: 423px;
+
+      li {
+        margin-right: 24px;
+      }
+
+      li:last-child {
+        margin-right: 0;
+      }
+
+      li a {
+        text-decoration: none;
+        color: $darkGrey;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+}

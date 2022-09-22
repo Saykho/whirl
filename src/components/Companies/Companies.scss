@@ -1,0 +1,19 @@
+@import "src/style/colors";
+
+.companies {
+  text-align: center;
+  padding: 40px 155px 160px;
+
+  &__title {
+    color: $darkGrey-2;
+    margin-bottom: 24px;
+  }
+
+  &__logo img {
+    margin-right: 61px;
+  }
+
+  &__logo img:last-child {
+    margin-right: 0;
+  }
+}

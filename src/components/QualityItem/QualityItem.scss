@@ -1,0 +1,15 @@
+@import "src/style/colors";
+
+.quality {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 155px 120px;
+
+  &__card {
+    margin-right: 32px;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@import "src/style/colors";
+
+.posts {
+  padding: 80px 155px;
+  background: $backgroundColor;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .posts-title {
+      color: $darkGrey-2;
+    }
+  }
+
+  &__post {
+    display: flex;
+    justify-content: space-between;
+  }
+}

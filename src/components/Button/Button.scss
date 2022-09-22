@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  padding: 6px 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #0070A0;
+
+  &.outline {
+    background: #FFFFFF;
+    color: #0070A0;
+    margin-right: 11px;
+  }
+}
+

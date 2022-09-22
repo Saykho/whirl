@@ -1,0 +1,38 @@
+@import "src/style/colors";
+
+.post-card {
+  max-width: 355px;
+
+  .post-image {
+    width: 355px;
+    height: 238px;
+  }
+
+  .post-text {
+    padding: 25px 43px 27px 24px;
+    background: $white;
+
+    .post-category {
+      display: inline-block;
+      padding: 2px 12px 4px;
+      color: $darkBlue-2;
+      background: $lightBlue-2;
+      margin-bottom: 8px;
+    }
+
+    .post-title {
+      color: $darkGrey-2;
+      margin-bottom: 11px;
+    }
+
+    .post-desc {
+      color: $darkGrey-2;
+      margin-bottom: 13px;
+    }
+
+    .post-date {
+      color: $darkGrey-2;
+    }
+  }
+}
+

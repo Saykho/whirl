@@ -1,0 +1,22 @@
+@import "src/style/colors";
+
+.task {
+  padding: 120px 155px;
+
+  &__description {
+    margin-bottom: 68px;
+
+    .task-title {
+      color: $darkGrey-2;
+      margin-bottom: 18px;
+    }
+
+    .task-desc {
+      color: $darkGrey-2;
+    }
+  }
+
+  &__options {
+    display: flex;
+  }
+}

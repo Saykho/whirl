@@ -1,0 +1,42 @@
+@import "src/style/colors";
+
+.quality__card {
+  width: 355px;
+  height: 250px;
+
+  .card-img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 8px;
+  }
+
+  .card-title {
+    color: $darkGrey-2;
+    margin-bottom: 11px;
+  }
+
+  .card-description {
+    color: $darkGrey-2;
+  }
+
+  &_yellow {
+    background: $yellow;
+    padding: 32px 32px 40px;
+  }
+
+  &_aqua {
+    background: $aqua;
+    padding: 32px 32px 40px;
+  }
+
+  &_pink {
+    background: $pink;
+    padding: 32px 32px 40px;
+  }
+}
+
+.empty-img {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 8px;
+}
